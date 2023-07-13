@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Sofia Sans', sans-serif;
+}
+
+li:hover {
+ color: rgb(43, 216, 43);
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+}
+
+#banner {
+    background-image: url(https://wallpapers.com/images/featured/pmk61whx1j7kjhve.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+#trailer-container {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.trailer {
+    width: 50%;
+}
+
+#sinopse {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+.Description {
+    color: #fff;
+    font-size: 19px;
+    font-family: 'Sofia Sans', sans-serif;
+}
+
+.button {
+    width: 200px;
+    height: 60px;
+    background-color:rgb(43, 216, 43) ;
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: #000;
+
+}
+
+.titulo-cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Sofia Sans', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.personagens-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cards-contant {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Sofia Sans', sans-serif ;
+}
+
+.card:hover {
+    transform: scale(1.04);
+}
+
+.banner-1 {
+    background-image: url(./dtop-_0000s_0000_Price.png);
+}
+
+.banner-2 {
+    background-image: url(./dtop-_0000s_0002_Ghost.png);
+}
+
+.banner-3 {
+    background-image: url(./Operators-141_0000s_0002_Soap.png);
+}
+
+.banner-4 {
+    background-image: url(./dtop-_0000s_0004_Gaz.png);
+}
+
+.banner-5 {
+    background-image: url(./Operators-141_0000s_0001_Ale.png);
+}
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+spam {
+    color: #fff;
+    font-family:'Sofia Sans', sans-serif ;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
